@@ -1,11 +1,104 @@
-/* 
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 20px;
+    padding-top: 150px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.brazo-horizontal {
+    width: 300px;
+    height: 30px;
+    border-top-right-radius: 20px;
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+}
 
-*/
+.tallo {
+    width: 20px;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.semaforo {
+    width: 80px;
+    height: 280px;
+    background-color: #333;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+}
+
+.luz {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #111;
+}
+
+.roja     { 
+    background-color: red;
+}
+.amarilla { 
+    background-color: yellow; 
+}
+.verde    {
+     background-color: limegreen;
+}
+.violeta { 
+    background-color: mediumpurple;  
+}
+
+.poste-vertical {
+    width: 30px;
+    height: 800px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.boton-peaton {
+    width: 50px;
+    height: 120px;
+    background-color: #555;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 450px;
+}
+
+.btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: mediumpurple;
+    margin-top: 10px;
+}
+.uno{
+   width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;  
+    margin-bottom: 10px;
+}
+
+
+.activa{
+    box-shadow: 0 0 30px 10px lightgoldenrodyellow;
+                
+}               
